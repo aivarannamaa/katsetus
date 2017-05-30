@@ -5,7 +5,7 @@ import praks7.parsers.Parser;
 
 
 // S → AB
-// A → boA | baA | ε
+// A → boA | baA | εasdfasdfasdf
 //  B → Blo | Bbi | rat
 public class BoratParser extends Parser {
 
@@ -41,7 +41,7 @@ public class BoratParser extends Parser {
                 break;
             case 'r':
                 n.add(epsilon());
-                break;
+                br
             default:
                 expected('b', 'r');
         }
